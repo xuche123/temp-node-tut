@@ -1,4 +1,4 @@
-// NON-BLOCKING
+// NON-BLOCKING, DOES NOT BLOCK EVENT LOOP
 const { readFile, writeFile } = require("fs");
 
 console.log("start");

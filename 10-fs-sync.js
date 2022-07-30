@@ -1,4 +1,4 @@
-// BLOCKING
+// BLOCKING, BLOCKS EVENT LOOP
 const { readFileSync, writeFileSync } = require("fs");
 console.log("start");
 const first = readFileSync("./content/first.txt", "utf8");
